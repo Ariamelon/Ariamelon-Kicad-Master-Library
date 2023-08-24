@@ -1,4 +1,4 @@
-(footprint "VIK-Keyboard-Connector-Horizontal" (version 20221018) (generator pcbnew)
+(footprint "VIK_Keyboard_Horizontal" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Hirose FH12, FFC/FPC connector, FH12-12S-0.5SH, 12 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
   (tags "connector Hirose FH12 horizontal")
@@ -109,7 +109,7 @@
   (pad "MP" thru_hole circle (at 3.4 2.2 180) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 88469352-33fb-472b-ad0c-9efb757e1b49))
   (pad "MP" smd roundrect (at 4.325 1.4 180) (size 2.45 2.2) (layers "F.Cu") (roundrect_rratio 0.1363636364) (tstamp e32da1fb-0604-425f-9a91-4f1617d92048))
   (pad "MP" smd rect (at 4.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2eb3c8d1-5672-42b5-a222-8f3d8b50c4db))
-  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/FH12-12S-0.5SH.step"
+  (model "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-Connector-3D/Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal_Flippable.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
