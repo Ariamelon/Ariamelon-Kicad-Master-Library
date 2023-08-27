@@ -25,6 +25,8 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3ced271c-9da0-43a7-ab53-d4bf02ab1903))
   (fp_line (start 1.77 1.77) (end 1.77 1.4)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a340b7a8-c7ad-4481-b44a-0c17c3235343))
+  (fp_circle (center -2.2 -1) (end -2.1 -1)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp a7f78b32-ef9e-4796-89cc-cf2fb003f4ea))
   (fp_line (start -2.1 -1.9) (end -2.1 1.9)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9e05a9e1-37f0-4f0b-9562-cdabf4b7e007))
   (fp_line (start -2.1 1.9) (end 2.1 1.9)
@@ -60,6 +62,7 @@
   (pad "3" smd rect (at -1.5 0.325) (size 0.8 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48de8c49-5d2b-41b5-bf8e-bd0ac7ca7da7))
   (pad "4" smd rect (at -1.5 0.975) (size 0.8 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 553c2bc1-1941-4b2d-92e9-f10db0266e7a))
   (pad "5" smd custom (at 0 0) (size 0.8 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
